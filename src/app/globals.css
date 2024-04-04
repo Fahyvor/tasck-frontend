@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./Metropolis-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nuel Hans';
+  src: url('./NHaasGroteskTXPro-55Rg.ttf') format('ttf'),
+       url('./NHaasGroteskTXPro-65Md.ttf') format('ttf'),
+       url('./NHaasGroteskTXPro-75Bd.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --color-bg: rgba(22, 21, 25, 1);
+  --color-primary: rgba(241, 178, 71, 1);
+}
+
+.dark_bg {
+  background-color: var(--color-bg);
+}
+
+.yellow_bg {
+  background-color: var(--color-primary);
+}
+
+.light_bg {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.text-variant {
+  color: rgba(255, 97, 97, 1);
+}
+
+.logout_container {
+  background-color: rgba(255, 97, 97, 0.3);
+}
+
+.bg-variant {
+  background-color: rgba(64, 72, 82, 0.15);
+}
+
+.green-text {
+  color: rgba(90, 218, 157, 1);
+}
+
+.color-black {
+  background-color: rgba(41, 45, 50, 1);
+}
+
+.page_right_down {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.body_nav_style {
+  color: rgba(241, 178, 71, 1);
+  border-bottom: 2px solid rgba(241, 178, 71, 1) !important;
+}
+
+.bg_image {
+  background-color: rgba(241, 178, 71, 0.1);
+}
+
+.home_design {
+  background-color: rgba(241, 178, 71, 0.2);
+}
+
+.home_quanity p {
+  color: rgba(241, 178, 71, 0.7);
+}
+
+.text_yellow {
+  color: rgba(241, 178, 71, 0.7);
+}
+
+.text_yellow_2 {
+  color: rgba(241, 178, 71, 1);
+}
+.bg-shadow {
+  background-color: rgba(217, 217, 217, 0.5);
+}
+
+p{
+  font-size: 14px;
+}
+
+.creatives_details p {
+  color: green !important;
+}
